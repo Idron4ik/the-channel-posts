@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.f561d56e42f2a36443e54b62c40f44ae.js"
+  "precache-manifest.fd792eb000161e5310d1706c19eb7b33.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "channel-posts"});

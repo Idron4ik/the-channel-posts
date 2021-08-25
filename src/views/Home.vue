@@ -100,6 +100,8 @@
         
         
         &[data-loaded] {
+          background-color: transparent;
+          border: none;
           align-items: flex-start;
   
           &:after {
