@@ -9,8 +9,8 @@
       <ul class="posts">
         <TelegramPost
             v-for="post in posts"
-            :key="post.id"
-            :postId="`${post['chat.username']}/${post.id}`"
+            :key="post['post_id']"
+            :postId="`${post['channel_name']}/${post['post_id']}`"
         />
       </ul>
     
@@ -66,7 +66,7 @@
     .posts {
       display: flex;
       overflow-x: scroll;
-      padding-left: 0;
+      padding-left: 10px;
       list-style: none;
       
       .item {
